@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(pexels-veeterzy-303383.jpg) ;
+    background-size: cover;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+   
+}
+
+h2,h3{
+    color: whitesmoke;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 10px;
+}
+
+.col{
+    width: 50%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.col input{
+    height: 70px;
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-align: center;
+}
